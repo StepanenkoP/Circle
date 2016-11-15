@@ -1,0 +1,37 @@
+.wrapper {
+  width: 600px;
+  height: 600px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  position: relative;
+}
+
+
+.circle {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -250px;
+  top: 50%;
+  margin-top: -250px;
+  z-index: 1;
+}
+
+.wrap {
+  position: absolute;
+  left: 50%;
+  width: 0;
+  margin-left: -16px;
+  transform-origin: center bottom;
+  height: 0;
+  border-style: solid;
+  border-width: 300px 17px 0 17px;
+  border-color: #007bff transparent transparent transparent;
+}
+
+.wrap:hover {
+  border-color: #000;
+}
